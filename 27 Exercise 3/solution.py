@@ -48,8 +48,8 @@ i = 0
 name = input("Enter Your name : ")
 while i < len(questions):
     print("\n")
-    print("Please select the correct option and win 10000")
     print(f"Your balance is {final_amt}")
+    print("Please select the correct option and win 10000")
     print("\n")
     print(questions[i])
     print("Answers:")
@@ -61,6 +61,7 @@ while i < len(questions):
     print("The correct answer is : ", correct_ans[i])
     
     if user_answer == correct_ans[i]:
+        print("Congratulation you've successfully win the prize")
         final_amt += 10000
         i += 1
     else:
