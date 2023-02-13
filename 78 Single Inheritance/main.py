@@ -30,12 +30,18 @@ class Cat(Animal):
 
 a = Animal("Animal", "AnimalMan")
 a.make_sound()
+print(a.name)
+print(a.species)
 
 d = Dog("Dog", "DoggerMan")
 d.make_sound()
+print(d.name)
+print(d.breed)
 
 c = Cat("Cat", "CatMan")
 c.make_sound()
 c.cat_speciality()
+print(c.name)
+print(c.breed)
 
 
